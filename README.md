@@ -16,6 +16,17 @@ Many cheap DC ceiling fans (sold under various brands, and controlled by the **F
 
 Everything runs on your local network. No Amazon skill, cloud service or account is needed.
 
+<table>
+  <tr>
+    <td align="center"><img src="img/BLEFanBridge1.png" alt="Control page: fan card with on/off switch, speed 1-6 bar, Reverse and Breeze, and a Light section with hold-to-change Brightness and Color temperature, Warm/Neutral/Cool, Night light and All off" width="360"></td>
+    <td align="center"><img src="img/BleFanBridge2.png" alt="Settings page: Alexa name, Show in Alexa checkbox, light name, speeds, and the learned remote with Learn from remote, Forget learned remote and Remove fan buttons" width="360"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Control page</sub></td>
+    <td align="center"><sub>Settings</sub></td>
+  </tr>
+</table>
+
 > **Status:** a personal project, tested on two Crazypai 52" DC fans with their "TYX" BLE remotes (FCC ID 2BHLF-TYX0004), an ESP32-CAM board and Echo devices. Other FanLamp-family fans and remotes will probably work, especially with **Learn from remote**, but haven't been tested. See [Compatibility](#compatibility).
 
 ## Contents
