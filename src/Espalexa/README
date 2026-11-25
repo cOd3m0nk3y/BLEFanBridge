@@ -1,0 +1,9 @@
+Espalexa 2.7.0 by Christian Schwinne (MIT, see LICENSE), https://github.com/Aircoookie/Espalexa
+
+Copied here with one change, in encodeLightId() in Espalexa.h: the device uniqueid format is
+"MAC-IDX-00:11" (upstream PR #235, merged June 2025 but not in a release yet) instead of
+"MAC:00:11-IDX". With the old format, Alexa merged our devices into one: only "Patio Fan Light" was
+found, and it controlled the fan.
+
+When Espalexa publishes a release with this fix, this copy can be deleted and the sketch can go
+back to #include <Espalexa.h>.

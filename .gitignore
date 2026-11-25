@@ -1,0 +1,23 @@
+# Arduino / arduino-cli build output
+build/
+*.bin
+*.elf
+*.map
+
+# Host test binary
+tests/fanlamp_test
+tests/*.exe
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local tool settings (may contain machine-specific or private data)
+.claude/settings.local.json
+
+# Captured logs (may contain network details)
+*.log
+chrome-net-export*.json
